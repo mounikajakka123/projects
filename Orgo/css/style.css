@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+*{
+margin:0px;
+padding:0px;
+}
+@keyframes example {
+
+		from {background-color:green;}
+		to {background-color:Orange;}
+			}
+	.animation {
+		  width:600px;
+ 		 height: 300px;
+ 		 background-color: green;
+ 		 animation-name: example;
+ 		 animation-duration: 4s;
+  		animation-iteration-count: infinite;
+			}
+
+/* CSS Document */
+		.bg{background-color:white;position:fixed;top:0;z-index:9999;width:100%;}
+		.nav-item{margin-left: 25px;margin-right: 25px;}	
+		.nav-link{text-decoration: none;color:#228b22;font-weight:bold;border:1px solid transparent;border-radius:5px;}
+		.navbar-nav{margin-left: 10%;font-weight:bold;}
+		.nav-link:hover{color:orange;}
+                .active{color:orange!important;}
+		h2{font-weight:bold;color:orange;}
+		.f1{position: fixed;}
+		.bg1{background-color:white;}
+		
+		.corbox{ padding-top:10px;padding-bottom:10px;padding-left:5px;padding-right:5px;color:forestgreen;}
+		.f1{position: fixed;}
+
+		.zoom:hover {
+   		 	transform: scale(1.1); 
+			}
+
+		.view:visited {
+				color: orange;
+			}
+
+		.view:hover {
+				color: forestgreen;
+				}
+		.logo {												
+	padding-bottom: 30px;
+	padding-left: 120px;
+	padding-top: 20px;}
+
+	.search {
+	padding-top: 20px;	
+	padding-left: 90px;	
+	}
+	.sign {
+	padding-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	}
+
+	.signin{
+	color: white;
+	word-spacing: 5px;
+	text-decoration: none !important;
+	}
+	.searchicon {
+	width: 20%;
+	cursor: pointer;
+	background-color: #ff8f4c;
+	border: #ff8f4c;
+	color: #FFFFFF;
+	}
+	.searchicon:hover{color:orange;}
+	.signin:hover{color:orange;}
+	.searchicon:hover{color:orange;}
+	.cart1 {
+	color: white;
+	padding-left: 20px;
+	}
+
+	.cart1:hover {
+	color: orange;
+	}
+
+	.signup {
+	color: white; 
+	text-decoration: none !important;
+	word-spacing: 4px;
+	padding-left: 20px;	
+		}
+	.topleft {
+		color:green;font-weight:bold;
+ 		 position: absolute;
+  		top: 10px;
+  		left: 40px
+ 		 font-size: 18px;
+		}
+
+
+	 	
+/* body style start*/
+
+		.pad{padding-top:8%;color:black;font-weight:bold;}
+		.heading{font-size:24px;font-weight:bold;color:white;margin:2% 0;}
+		a{text-decoration:none;}
+		.h5{margin-top:20px;}
+		.hel{color:forestgreen;font-size:28px;font-weight:bold;}
+		h4{color:forestgreen;}
+		.dropdown-menu{background-color: orange;}
+		
+		.rec{background-color:palegreen;color:black;
+    			border-radius:10px;
+    			 height:120px;margin:0px 5px 0px 5px;max-width:30%;}
+
+		.rec1{
+    			 border:4px double palegreen;border-radius:10px;
+    			 height:120px;background-color: orange;border-radius:10px;color:white;
+				margin:0px 5px 0px 5px;max-width:30%;}
+
+		.rec2{
+    			 border:4px double orange;border-radius:10px;
+    			 height:120px;background-color:palegreen;color:black;margin:0px 5px 0px 5px;max-width:30%;}
+
+		.hk{margin-top:10px;margin-bottom:10px;height:300px;border-radius:10px;}
+	
+		.visit{height:200px;}
+		.img-pad{padding:1% 0 5% 0}
+  		
+		.pad1{padding-top:15%;}
+	
+		div.pol {
+			  
+  			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 		 	text-align: center;
+			}
+
+		
+		.in {
+		   margin:10px 5px;
+			}
+		div.gallery {
+			border: 1px solid #ccc;
+				}
+		div.gallery:hover {
+  			border: 1px solid #777;
+			}
+
+
+
+	/* about style body*/
+
+		.bg2{background-color: orange;}
+		.q{height:150px;}
+		.m{margin:25px 5px 25px 5px; }
+		.topg{margin-top:5%;}
+		a{text-decoration:none;color:White}
+		a:hover{color:white;text-decoration:none;}
+		.at{font-size:18px;font-weight:bold;margin-top:5px;}
+		.bestprice {
+				padding-top: 25px;
+			color: #ff8f4c;
+			}
+
+						/*--what we provide--*/
+
+	.provide {														
+ 		 padding-top: 70px;
+		padding-bottom: 70px;
+		}
+
+	.what {
+		font-family: 'PT Sans', sans-serif;
+		text-align: center;
+		}
+
+	.shoping {
+		padding-top: 60px;
+		text-align: center;
+		}
+
+	.fa-shopping-bag {
+		color: forestgreen;
+		font-size: 45px;
+		}
+
+	.fa-globe-americas {
+		color: forestgreen;
+		font-size: 45px;
+		}
+
+	.fa-redo-alt {
+		color: forestgreen;
+		font-size: 45px;
+		}
+
+	.fa-shipping-fast {
+		color: #228b22;
+		font-size: 45px;
+		}
+
+	.fa-shopping-basket {
+		color: forestgreen;
+		font-size: 45px;
+		}
+
+	.fa-tag {
+		color: forestgreen;
+		font-size: 45px;
+	}
+	.prov {
+		padding-top:20px;font-size:15px;
+		}
+							
+
+				/*--our team--*/
+	.team {														
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.team1 {													
+		border-radius: 200px;
+		height: 150px;
+		width: 150px;
+	}
+
+	.manager {
+		padding-top: 30px;
+		text-align: center;	
+	}
+	.fa-star{
+		color:orange;
+		}
+
+
+ 	/*footer style start*/
+		.f{color:white;margin-top:10px;}
+		.fs{margin-right:10px;}
+		.footer{color:white;background-color:#228b22;}
+		.fh{color:white;font-weight:bold;font-size:18px;}
+		.af {color:orange;font-weight:bold;margin-top:10px;font-size:32px;}
+		.fus{color:white;font-weight:bold;font-size:18px;}
+
+		
+	/*index style */
+		.abt {color:orange;margin-top:10px;}
+		.top1{margin-top:15%;}
+		.top{margin-top:3%;margin-bottom:2%;}
+		.bg3{background-color:#228b22;}
+		.dir{margin-top:3%;}
+		.para{font-size:16px;
+       			font-weight:bold;
+			text-align:center;
+			margin-top:25px;
+					}
+		.heading2{font-size:32px;font-weight:bold;color:orange;}
+		.heading3{font-size:24px;font-weight:bold;color:orange;margin:5% 0;}
+		.vis{color:#228b22;font-weight:bold;font-size:26px;margin-top:30px;font-family: 'Fondamento', roman;}
+		.b{background-color:#f7faf9;}
+		.abt1 {color:orange;font-weight:bold;margin-top:10px;}
+		.ab{color:orange;font-weight:bold;margin-top:200px;font-size:28px;}
+		.coro{font-size:68px;font-weight:1000px;color:white;margin-bottom:10px;}
+		.coro1{font-size:32px;font-weight:250px;color:white;}
+	.img-fluid{padding-top:5px;}
+		.copyright {
+			padding-top: 12px;
+			padding-left: 120px;
+				}
+
+		.payment {
+			padding-top: 5px;
+			padding-left: 200px;
+			}
+		.container-fluid {
+			padding:0px;	
+			margin: 0px;
+			}
+		
+
+
+		.marq {color:white;
+		font-weight:bold;
+		font-size:24px;
+			}
+		.btn{background-color:orange;color:white;border-radius:20px;font-weight:bold;padding: 8px 25px 8px 25px;margin-					top:20px;}
+		 .btn:hover{color:#228b22;}
+		.bk {
+			background-color: white;
+			}
+
+		.w1 {width:100%;}	
+
+		.mn {margin:20px 50px 50px 140px;}
+
+		.btn2 {
+			margin-left:10px;}
+		
+		.hk{font-size:12px;margin:0 0 0 0;}
+		.con{font-size:28px;color:#228b22;;margin:40px 0px 10px 0px;}
+		.loc{margin:10px 5px 10px 5px;}
+		.l{margin:10px 0px 20px 0px;color:#228b22;font-size:30px;font-weight:bold;}
+
+
+
+		
+	/*shop style */
+
+	.tabs_class{
+		width:33.333%;
+		float: left;
+		text-align: center;
+		height: 30px;
+		line-height:30px;
+		color: #228b22;
+		font-weight:bold;
+		cursor: pointer;
+		font-size:24px;
+		margin-top:20px;margin-botton:20px;
+	           }
+	 br{
+		 clear:both;
+		 }
+	 
+	 .active1{color:orange;}
+	.price {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+		}
+	.tops{margin-top:3%;margin-bottom:3%;}
+	.zoom:hover {
+    		transform: scale(1.2);
+		
+		}
+
+	/*homekit style */
+
+	.head{font-size:24px;font-weight:bold;color:#228b22;margin:2% 0;}
+	.toph{margin-top:5%;margin-bottom:5%;}
+	.btn1{background-color:orange;color:white;font-weight:bold;padding:8px 8px;border-radius:8px;}
+	.btn1:hover{color:#228b22}
+	
+	/*contact style */
+
+	.contop{margin-top:7%;}
+	.team {														
+	padding-top: 50px;
+	padding-bottom: 50px;
+		}
+
+	.team2{													
+	border-radius: 200px;
+	height: 120px;
+	width: 120px;
+		}
+
+	.manager {
+	padding-top: 30px;
+	text-align: center;	
+	}
+	.location{
+			color:#228b22;
+			}
+
+
+
+
+
+
+
+
